@@ -10,9 +10,9 @@ MARKS=(DNaseIStam Srf Nrsf Gabp H3k4me3 H3k27me3 H3k27ac H3k36me3 H4k20me1 \
        H3k9me1 H3k4me2 H3k4me1 H3k9ac Pol2b Ctcf Xrcc4 Nfe2 Jund Cmyc Max \
         Cfos Cjun Rad21)
 ID_DIR="${ID_DIR_PREFIX}_base"
-
 CMD_TRACKLIST=""
 
+# add track locations to string for clarity
 for (( i=0; i<${#MARKS[@]}; i++ ));
 do
     MARK=${MARKS[$i]}
